@@ -19,4 +19,11 @@ public class CassQueryVisitor extends DsqlQueryVisitor {
         return new CassOperatorVisitor();
     }
 
+    @Override
+    public void visitInitPrecedence() {
+    }
+
+    @Override
+    public void visitEndPrecedence() {
+    }
 }
